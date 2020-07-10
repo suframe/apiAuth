@@ -2,8 +2,8 @@
 
 namespace suframe\apiAuth\middleware;
 
-use app\anding\exceptions\ApiException;
-use app\anding\middleware\auth\Auth;
+use suframe\apiAuth\exceptions\ApiException;
+use suframe\apiAuth\Auth;
 use think\Request;
 
 class ApiAuth

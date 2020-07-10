@@ -19,12 +19,4 @@ class ApiException extends BaseException
     static $refreshTokenExpire = [50008, '长时间未登录，请重新登录'];
     static $phoneRepeat = [50009, '手机号已被注册'];
 
-    static $wxAuthError = [50010, '微信授权错误'];
-
-
-    static $smsRepeat = [50020, '短信发送中，请勿重复发送'];
-    static $smsSendError = [50021, '短信发送失败'];
-
-    static $taskNoRights = [50030, '无任务权限'];
-
 }

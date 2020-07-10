@@ -2,7 +2,7 @@
 
 namespace suframe\apiAuth\driver;
 
-use app\anding\model\AndingUser;
+use app\anding\model\ApiUser;
 use Psr\SimpleCache\InvalidArgumentException;
 use think\facade\Cache;
 
@@ -52,8 +52,8 @@ class RedisDriver
      */
     public function login($uid)
     {
-        /** @var AndingUser $user */
-        $user = AndingUser::where('enable', 1)
+        /** @var ApiUser $user */
+        $user = ApiUser::where('enable', 1)
             ->find($uid);
         if(!$user){
             return false;

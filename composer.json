@@ -13,7 +13,18 @@
       "suframe\\apiAuth\\": "src"
     }
   },
+  "extra": {
+    "think": {
+      "services": [
+        "suframe\\apiAuth\\ApiAuthService"
+      ],
+      "config": {
+        "thinkAdmin": "src/config/apiAuth.php"
+      }
+    }
+  },
   "prefer-stable": true,
   "require": {
+    "php": ">=7.1.0"
   }
 }
