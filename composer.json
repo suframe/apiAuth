@@ -1,0 +1,19 @@
+{
+  "name": "suframe/apiAuth",
+  "description": "suframe thinkphp apiAuth",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "qian",
+      "email": "330576744@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "suframe\\apiAuth\\": "src"
+    }
+  },
+  "prefer-stable": true,
+  "require": {
+  }
+}
